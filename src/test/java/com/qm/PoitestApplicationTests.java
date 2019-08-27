@@ -53,6 +53,7 @@ public class PoitestApplicationTests {
             //通过行遍历创建标题行的单元格
             HSSFCell titleRowCell = titleRow.createCell(i);
             //为每个单元格赋值
+
             titleRowCell.setCellValue(strs[i]);
         }
         //创建模拟数据的list集合 模拟从数据库中查出来的数据集合
