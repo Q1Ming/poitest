@@ -33,6 +33,7 @@ public class PoitestApplicationTests {
         OutputStream os = new FileOutputStream("C:/Users/Qm/Desktop/测试导出数据的表格.xls");
         //将该工作簿输出到文件中(需要通过输出流)
         workbook.write(os);
+        System.out.println("哈哈哈");
         os.close();
     }
 
