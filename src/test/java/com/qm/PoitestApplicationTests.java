@@ -34,6 +34,7 @@ public class PoitestApplicationTests {
         //将该工作簿输出到文件中(需要通过输出流)
         workbook.write(os);
         System.out.println("哈哈哈");
+        System.out.println("啦啦啦");
         os.close();
     }
 
